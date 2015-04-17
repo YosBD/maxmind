@@ -19,7 +19,7 @@ auth        = new Buffer("#{conf.maxMind.userId}:#{conf.maxMind.licenceKey}").to
             service: 'insights'
             ipAddress: ipAddress
 
-doApiCall: (options) ->
+doApiCall = (options) ->
     url         = "#{endpoint}#{options.service}/#{options.ipAddress}"
     contentType = "application/vnd.maxmind.com-#{options.service}+json; charset=UTF-8; version=2.1"
 
