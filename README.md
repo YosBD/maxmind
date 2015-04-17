@@ -1,6 +1,6 @@
 # mjmasn:maxmind
 
-This package is a simple wrapper for the MaxMind GeoIP2 Precision Services API. There are plenty of uses for GeoIP data but this was designed to help with compliance for the new EU VAT regulations which came into force in January 2015. If you discover any issues please open a new issue or submit a PR.
+This Meteor package is a simple wrapper for the MaxMind GeoIP2 Precision Services API. There are plenty of uses for GeoIP data but this was designed to help with compliance for the new EU VAT regulations which came into force in January 2015. If you discover any issues please open a new issue or submit a PR.
 
 ## Installation
 This package is available at https://atmospherejs.com/mjmasn/maxmind. To install use:
