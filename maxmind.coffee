@@ -29,4 +29,5 @@ doApiCall: (options) ->
             'Authorization': "Basic #{auth}"
             'Content-Type': contentType
 
-    HTTP.call 'GET', url, request
+    response = HTTP.get url, request
+    response?.data
