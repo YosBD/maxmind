@@ -18,4 +18,56 @@ try {
 catch (err) {
     // Handle any errors
 }
+
+// Response object:
+{
+    country: {
+        iso_code: 'US',
+        names: {
+            'pt-BR': 'Estados Unidos',
+            es: 'Estados Unidos',
+            ru: 'Сша',
+            en: 'United States',
+            'zh-CN': '美国',
+            fr: 'États-Unis',
+            de: 'USA',
+            ja: 'アメリカ合衆国'
+        },
+        geoname_id: 6252001
+    },
+    continent: {
+        names: {
+            'pt-BR': 'América do Norte',
+            es: 'Norteamérica',
+            ru: 'Северная Америка',
+            en: 'North America',
+            'zh-CN': '北美洲',
+            fr: 'Amérique du Nord',
+            de: 'Nordamerika',
+            ja: '北アメリカ'
+        },
+        geoname_id: 6255149,
+        code: 'NA'
+    },
+    maxmind: {
+        queries_remaining: 200758
+    },
+    registered_country: {
+        iso_code: 'US',
+        names: {
+            'pt-BR': 'Estados Unidos',
+            es: 'Estados Unidos',
+            ru: 'Сша',
+            en: 'United States',
+            'zh-CN': '美国',
+            fr: 'États-Unis',
+            de: 'USA',
+            ja: 'アメリカ合衆国'
+        },
+        geoname_id: 6252001
+    },
+    traits: {
+        ip_address: '100.200.100.200'
+    }
+}
 ```

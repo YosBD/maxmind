@@ -30,4 +30,5 @@ doApiCall = (options) ->
             'Content-Type': contentType
 
     response = HTTP.get url, request
-    response?.data
+
+    JSON.parse response.content

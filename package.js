@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mjmasn:maxmind',
-  version: '0.3.1',
+  version: '0.3.5',
   summary: 'MaxMind API package',
   git: 'https://github.com/mjmasn/maxmind',
   documentation: 'README.md'
