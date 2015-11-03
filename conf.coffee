@@ -4,10 +4,10 @@ getMaxMindConf = ->
     licenceKey  = Meteor.settings.private.location_validation.max_mind_license_key
 
     if !userId
-        throw new Error "Missing environment variable: MAXMIND_USER_ID"
+        throw new Meteor.Error "Missing settings: Meteor.settings.private.location_validation.max_mind_user_id"
 
     if !licenceKey
-        throw new Error "Missing environment variable: MAXMIND_LICENCE_KEY"
+        throw new Meteor.ERROR "Missing settings: Meteor.settings.private.location_validation.max_mind_license_key"
 
     conf =
         userId:     userId

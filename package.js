@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'mjmasn:maxmind',
-  version: '0.3.7',
+  name: 'yosbd:maxmind',
+  version: '0.0.1',
   summary: 'MaxMind API package',
-  git: 'https://github.com/mjmasn/maxmind',
+  git: 'https://github.com/YosBD/maxmind',
   documentation: 'README.md'
 });
 
